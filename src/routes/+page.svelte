@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    let name = $state('');
+    </script>
+
+<h1>hi {name}</h1>
+
+<button onclick={()=>name='raja'}> raja </button>
+<button onclick={()=>name='ramu'}> ramu </button>
